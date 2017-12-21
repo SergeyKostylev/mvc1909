@@ -17,9 +17,9 @@
     
     <hr>
     
-    <?=\Framework\Session::getFlash() ?>
-    
-    <?=$content?>
+    {#<?=\Framework\Session::getFlash() ?>#}
+
+    {% block content %}{% endblock %}
     
 </body>
 </html>
